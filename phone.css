@@ -1,0 +1,46 @@
+/* Navigation section */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  height: 100px;
+  border-bottom: 2px;
+}
+#logo {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+#logo img {
+  margin: 0px 0px;
+  height: 70px;
+  width: 100px;
+  padding: 0px 0px;
+}
+#navbar ul li a {
+  display: block;
+  padding: 0px 15px;
+  color: black;
+  margin: 0px 10px;
+}
+
+/* Home section */
+
+/* Services section */
+#services {
+  flex-direction: column;
+}
+#services .box img {
+  height: 100px;
+}
+
+/* About section */
+
+/* clients section */
+
+/* contact us section */
+#contactbox button {
+  width: 60%;
+  height: 50px;
+}
