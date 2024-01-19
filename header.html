@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    #container {
+      display: grid;
+      background-color: #000000;
+      color: white;
+      grid-template-areas: navbar navbar navbar navbar;
+      grid-area: navbar;
+      height: 30px;
+      width: 100%;
+      margin: 5px;
+      padding: 3px;
+      text-align: center;
+    }
+    .navbar {
+      margin: 5px;
+      padding: 3px;
+    }
+  </style>
   <body>
-    <p>Header</p>
+    <div id="container">
+      <nav class="navbar">Home About Shop Contact US</nav>
+    </div>
   </body>
 </html>
