@@ -10,8 +10,12 @@
       display: grid;
       background-color: #000000;
       color: white;
-      grid-template-areas: navbar navbar navbar navbar;
+      grid-template-areas:
+        "navbar navbar navbar navbar"
+        "section section section section";
+      grid-template-rows: 1fr 1fr;
       grid-area: navbar;
+      grid-area: section;
       height: 30px;
       width: 100%;
       margin: 5px;
@@ -22,10 +26,15 @@
       margin: 5px;
       padding: 3px;
     }
+    .section {
+      margin: 5px;
+      padding: 3px;
+    }
   </style>
   <body>
     <div id="container">
       <nav class="navbar">Home About Shop Contact US</nav>
+      <section class="section">Hello World</section>
     </div>
   </body>
 </html>
